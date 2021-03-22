@@ -1,0 +1,110 @@
+@media (min-width: 300px) {
+  .container {
+    min-width: 768px;
+  }
+  .start-screen {
+    background-image: url(../img/tablet_img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    padding-left: 48px;
+    padding-right: 50px;
+    padding-top: 40px;
+    height: 700px;
+    margin-bottom: 94px;
+  }
+  .start-screen__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 148px;
+    height: 42px;
+  }
+  .start-screen__name {
+    margin-bottom: 0;
+  }
+  .start-screen__btn {
+    display: inline-block;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .start-screen__btn:first-of-type {
+    padding-right: 20px;
+  }
+  .start-screen__btn:last-of-type {
+    padding-right: 20px;
+    padding-left: 21px;
+  }
+
+  .start-screen__btn:hover {
+    border: solid 3px #fff;
+    padding: 10px 17px 9px 18px;
+    border-radius: 19px;
+  }
+  .start-screen__slogan-start {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 52px;
+    line-height: 63px;
+    margin-bottom: 29px;
+  }
+  .start-screen__slogan-end {
+    font-size: 24px;
+    margin-bottom: 33px;
+  }
+  .btn {
+    width: max-content;
+    margin: auto;
+  }
+  .steps__title {
+    margin-bottom: 35px;
+  }
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 95px;
+  }
+  .step__wrapper {
+    height: 400px;
+    width: 236px;
+    margin-bottom: 10px;
+  }
+  .step_1 {
+    background-image: url(../img/tablet_img/Step_1.png);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+  }
+  .step_2 {
+    background-image: url(../img/tablet_img/Step_2.png);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+  }
+  .step_3 {
+    background-image: url(../img/tablet_img/Step_3.png);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+  }
+  .partner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 138px;
+    margin-bottom: 40px;
+  }
+  .partner__title {
+    margin-bottom: 35px;
+  }
+  .partner__wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+    width: 236px;
+  }
+  .partner__item {
+    margin-bottom: 35px;
+  }
+}
