@@ -1,0 +1,4 @@
+note 12*15
+photo 16*12
+pencil 15*15
+plane 16*14
