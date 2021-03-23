@@ -10,6 +10,7 @@
     padding-right: 50px;
     padding-top: 40px;
     height: 700px;
+    width: 768px;
     margin-bottom: 94px;
   }
   .start-screen__header {
@@ -87,10 +88,12 @@
     background-repeat: no-repeat;
     background-size: auto auto;
   }
-  .partner {
+  .partner__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  .partner {
     margin: auto;
     padding: 0 138px;
     margin-bottom: 40px;
@@ -98,13 +101,12 @@
   .partner__title {
     margin-bottom: 35px;
   }
-  .partner__wrapper {
+
+  .partner__item {
+    margin-bottom: 35px;
     padding-left: 0px;
     padding-right: 0px;
     margin-bottom: 0px;
     width: 236px;
-  }
-  .partner__item {
-    margin-bottom: 35px;
   }
 }

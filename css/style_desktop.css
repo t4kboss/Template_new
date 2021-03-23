@@ -1,0 +1,55 @@
+@media (min-width: 769px) {
+  .container {
+    min-width: 1440px;
+  }
+  .start-screen {
+    background-image: url(../img/Desktop_img/bg1.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 700px;
+    width: 1440px;
+    margin: auto;
+    margin-bottom: 26px;
+  }
+  .desktop-wrapper {
+    max-width: 940px;
+    margin: auto;
+  }
+  .steps__title {
+    display: none;
+  }
+  .step__wrapper {
+    /* height: 400px; */
+    width: 300px;
+    margin-bottom: 95px;
+  }
+  .step_1 {
+    background-image: url(../img/Desktop_img/Step_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .step_2 {
+    background-image: url(../img/Desktop_img/Step_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .step_3 {
+    background-image: url(../img/Desktop_img/Step_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .partner {
+    padding: 0;
+  }
+  .partner__wrapper {
+    padding: 0;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 36px;
+  }
+  .btn_white {
+    text-align: center;
+    width: 180px;
+  }
+}
